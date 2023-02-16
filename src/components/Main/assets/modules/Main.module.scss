@@ -1,8 +1,75 @@
 .main {
-  background-color: gray;
+  background-color: black;
+  color: white;
   justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 40px 80px;
+  padding: 80px;
+
+  @media screen and (max-width: 1024px) {
+    gap: 30px;
+    padding: 40px;
+  }
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  &__div {
+    display: flex;
+    justify-content: center;
+
+    &__photo {
+      width: 200px;
+      height: 200px;
+      border: 8px solid var(--gray);
+      border-radius: 50%;
+
+      @media screen and (max-width: 1024px) {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &__certificate {
+      margin-left: 6px;
+    }
+
+    ul {
+      padding: 15px 0;
+      display: flex;
+      gap: 32px;
+
+      @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+    }
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
 }

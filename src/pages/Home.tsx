@@ -1,3 +1,4 @@
+import { FixedIcons } from "../components/FixedIcons/FixedIcons";
 import { Footer } from "../components/Footer/Footer";
 import { Header } from "../components/Header/Header";
 import { Main } from "../components/Main/Main";
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Header />
       <Main />
+      <FixedIcons />
       <Footer />
     </>
   );

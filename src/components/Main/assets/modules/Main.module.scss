@@ -71,5 +71,110 @@
     align-items: center;
     gap: 8px;
     margin-bottom: 4px;
+
+    @media screen and (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.section-skills {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+
+  h2 {
+    width: max-content;
+    align-self: center;
+    text-align: center;
+    border-bottom: 0.5px solid rgb(71, 71, 168);
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 28px;
+
+      @media screen and (max-width: 1024px) {
+        gap: 16px;
+      }
+
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+
+        span {
+          @media screen and (max-width: 600px) {
+            font-size: 12px;
+          }
+        }
+
+        img {
+          width: 60px;
+          height: 60px;
+
+          @media screen and (max-width: 1024px) {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-projects {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+
+  h2 {
+    width: max-content;
+    align-self: center;
+    text-align: center;
+    border-bottom: 0.5px solid rgb(71, 71, 168);
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    border-radius: 16px;
+
+    &__item {
+      width: 30%;
+
+      article {
+        h3 {
+          margin: 10px;
+          color: white;
+        }
+
+        figure {
+          img {
+            border-radius: 16px;
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 }

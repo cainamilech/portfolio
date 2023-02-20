@@ -1,0 +1,62 @@
+.icons {
+  position: fixed;
+  bottom: 170px;
+  right: 16px;
+  z-index: 1;
+
+  @media screen and (min-width: 2500px) {
+    bottom: 215px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    bottom: 50px;
+  }
+
+  @media screen and (max-width: 599px) {
+    bottom: 29px;
+  }
+
+  &__whats {
+    display: contents;
+
+    figure {
+      display: contents;
+
+      img {
+        @media screen and (min-width: 2500px) {
+          width: 66px;
+          height: 66px;
+        }
+      }
+    }
+  }
+
+  &__arrow {
+    margin-top: 5px;
+    background-color: var(--gray);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    figure {
+      display: contents;
+
+      img {
+        transform: translateY(-2px);
+      }
+    }
+
+    @media screen and (min-width: 2500px) {
+      width: 66px;
+      height: 66px;
+
+      img {
+        width: 26px;
+      }
+    }
+  }
+}

@@ -1,7 +1,80 @@
-.header-home {
-  background-color: black;
+.header {
+  background-color: var(--gray);
   padding: 16px 80px;
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: 1024px) {
+    padding: 16px 40px;
+  }
+
+  @media screen and (max-width: 600px) {
+    justify-content: center;
+  }
+
+  &__portfolio {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    span {
+      font-size: 20px;
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 19px;
+      border-bottom: 0.5px solid rgb(71, 71, 168);
+      padding: 0px 5px;
+      margin-bottom: 5px;
+
+      @media screen and (max-width: 600px) {
+        font-size: 12px;
+      }
+
+      h1 {
+        margin: 0 8px;
+        font-size: 25px;
+
+        @media screen and (max-width: 600px) {
+          font-size: 15px;
+        }
+      }
+    }
+
+    &__role {
+      font-size: 13px;
+
+      @media screen and (max-width: 600px) {
+        font-size: 10px;
+      }
+    }
+  }
+
+  &__right {
+    width: 137px;
+
+    @media screen and (max-width: 1024px) {
+      width: unset;
+    }
+  }
 }

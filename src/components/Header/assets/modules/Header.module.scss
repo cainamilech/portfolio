@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid gray;
 
   @media screen and (max-width: 1024px) {
     padding: 16px 40px;

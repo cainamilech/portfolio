@@ -15,6 +15,17 @@ import css from "./assets/imgs/css.png";
 import seo from "./assets/imgs/seo.png";
 import vtex from "./assets/imgs/vtex.png";
 import todo from "./assets/imgs/todo.png";
+import game from "./assets/imgs/game.png";
+import despesas from "./assets/imgs/despesas.png";
+import vtexio from "./assets/imgs/vtexio.png";
+import reactproject from "./assets/imgs/react-project.png";
+import attractions from "./assets/imgs/attractions.png";
+import checkout from "./assets/imgs/vtexcheckout.png";
+import landing from "./assets/imgs/landing.png";
+import spotify from "./assets/imgs/spotify.png";
+import paralax from "./assets/imgs/paralax.png";
+import finans from "./assets/imgs/finans.png";
+import calculadora from "./assets/imgs/calculadora.png";
 
 const Main = () => {
   return (
@@ -36,7 +47,7 @@ const Main = () => {
             Brazilian, born in Pelotas (RS), living in Florianopolis (SC).
           </p>
           <p>
-            <strong>Developer Web Front-End</strong>, and some knowledge with
+            <strong>Web Developer Front-End</strong>, and some knowledge with
             Back-End and SEO.
           </p>
 
@@ -167,38 +178,212 @@ const Main = () => {
                 <p>
                   Back-end: PHP, MySQL, JQuery, Login Social (Google Client).
                   Front-end: HTML, CSS, Bootstrap, AJAX, Javascript. SEO.
+                  Framework MVC.
                 </p>
               </article>
             </a>
           </div>
           <div className={main["section-projects__list__item"]}>
-            <a href="https://www.linkedin.com/in/cainamilech/">
+            <a
+              href="https://youtu.be/yzhuf6k1IFc"
+              target="_blank"
+              rel="noreferrer"
+            >
               <article>
                 <figure>
-                  <img src={todo} alt="to do in florianopolis" />
+                  <img src={reactproject} alt="react project" />
                 </figure>
-                <h3>Things To Do in Florianopolis</h3>
+                <h3>Institutional Website + Forms</h3>
                 <p>
-                  Back-end: PHP, MySQL, JQuery, Login Social (Google Client).
-                  Front-end: HTML, CSS, Bootstrap, AJAX
+                  ReactJS, Javascript, Router Dom, Formik, Yup, Masks, HTML,
+                  SASS.
                 </p>
               </article>
             </a>
           </div>
           <div className={main["section-projects__list__item"]}>
-            <a href="https://www.linkedin.com/in/cainamilech/">
+            <a
+              href="https://youtu.be/fkppkICOs3Q"
+              target="_blank"
+              rel="noreferrer"
+            >
               <article>
                 <figure>
-                  <img src={todo} alt="to do in florianopolis" />
+                  <img src={vtexio} alt="product page" />
                 </figure>
-                <h3>Things To Do in Florianopolis</h3>
-                <p>
-                  Back-end: PHP, MySQL, JQuery, Login Social (Google Client).
-                  Front-end: HTML, CSS, Bootstrap, AJAX
-                </p>
+                <h3>Product Page - E-commerce</h3>
+                <p>VTEX IO, ReactJS, Javascript, SASS.</p>
               </article>
             </a>
           </div>
+        </div>
+
+        <div className={main["section-projects__list"]}>
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://youtu.be/eRm_hPDb7bk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={checkout} alt="ecommerce vtex page" />
+                </figure>
+                <h3>Checkout E-commerce VTEX CMS + API Request</h3>
+                <p>VTEX CMS, Javascript, API Request, Slick Carousel, Sass.</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://youtu.be/KWxhh53sOIw"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={attractions} alt="attractions page" />
+                </figure>
+                <h3>Attractions page - Add and List with Carousel</h3>
+                <p>Javascript, Slick Carousel, Sass.</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/game-mata-mosquito/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={game} alt="game mata mosquito" />
+                </figure>
+                <h3>Game: Mata Mosquito</h3>
+                <p>Javascript, HTML, CSS, Bootstrap</p>
+              </article>
+            </a>
+          </div>
+        </div>
+
+        <div className={main["section-projects__list"]}>
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/despesas-pessoais/index.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={despesas} alt="to do in florianopolis" />
+                </figure>
+                <h3>Despesas Pessoais</h3>
+                <p>Javascript, HTML, CSS, Bootstrap. Data in LocalStorage.</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/landing-page/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={landing} alt="landing page" />
+                </figure>
+                <h3>Landing Page</h3>
+                <p>HTML and CSS</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://github.com/cainamilech/spotify-bootstrap"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={spotify} alt="spotify" />
+                </figure>
+                <h3>Clone Spotify</h3>
+                <p>HTML, CSS, Bootstrap</p>
+              </article>
+            </a>
+          </div>
+        </div>
+
+        <div className={main["section-projects__list"]}>
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/calculadora/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={calculadora} alt="calculator" />
+                </figure>
+                <h3>Calculator</h3>
+                <p>Javascript, HTML and CSS</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/Projeto-Efeito-Paralax/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={paralax} alt="paralax page" />
+                </figure>
+                <h3>Paralax</h3>
+                <p>Simple page with paralax effect. HTML and CSS.</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/finans-bootstrap/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={finans} alt="finans page" />
+                </figure>
+                <h3>Institutional Page</h3>
+                <p>Simple page with HTML, CSS and Bootstrap.</p>
+              </article>
+            </a>
+          </div>
+        </div>
+
+        <div className={main["section-projects__list"]}>
+          <p>
+            I have some more projects that I didn't publish because they have
+            data base iteration,
+            <br /> and most of them are PHP, but if you can see, just look on my
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/cainamilech/"
+            >
+              {" "}
+              GitHub
+            </a>
+            !
+          </p>
+          <p></p>
         </div>
       </section>
     </main>

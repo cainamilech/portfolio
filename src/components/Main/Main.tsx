@@ -26,6 +26,7 @@ import spotify from "./assets/imgs/spotify.png";
 import paralax from "./assets/imgs/paralax.png";
 import finans from "./assets/imgs/finans.png";
 import calculadora from "./assets/imgs/calculadora.png";
+import pdf from "./assets/cv.pdf";
 
 const Main = () => {
   return (
@@ -86,11 +87,7 @@ const Main = () => {
               </a>
             </li>
             <li>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/cainamilech/"
-              >
+              <a href={pdf} download="cv-caina-milech">
                 Download CV <img src={download} alt="linkedin icon" />
               </a>
             </li>

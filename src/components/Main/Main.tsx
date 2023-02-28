@@ -14,6 +14,7 @@ import sass from "./assets/imgs/sass.png";
 import css from "./assets/imgs/css.png";
 import seo from "./assets/imgs/seo.png";
 import vtex from "./assets/imgs/vtex.png";
+import ts from "./assets/imgs/ts.png";
 import todo from "./assets/imgs/todo.png";
 import game from "./assets/imgs/game.png";
 import despesas from "./assets/imgs/despesas.png";
@@ -124,23 +125,28 @@ const Main = () => {
             </li>
 
             <li>
-              <img src={php} alt="javascript icon" />
+              <img src={php} alt="php icon" />
               <span>PHP</span>
+            </li>
+
+            <li>
+              <img src={ts} alt="php icon" />
+              <span>TypeScript</span>
             </li>
           </ul>
           <ul>
             <li>
-              <img src={mysql} alt="javascript icon" />
+              <img src={mysql} alt="mysql icon" />
               <span>MySQL</span>
             </li>
 
             <li>
-              <img src={sass} alt="javascript icon" />
+              <img src={sass} alt="sass icon" />
               <span>SASS</span>
             </li>
 
             <li>
-              <img src={html} alt="javascript icon" />
+              <img src={html} alt="html icon" />
               <span>HTML</span>
             </li>
 
@@ -150,7 +156,7 @@ const Main = () => {
             </li>
 
             <li>
-              <img src={seo} alt="javascript icon" />
+              <img src={seo} alt="seo icon" />
               <span>SEO</span>
             </li>
           </ul>

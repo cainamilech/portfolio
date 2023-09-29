@@ -96,7 +96,9 @@
     width: max-content;
     align-self: center;
     text-align: center;
-    border-bottom: 0.5px solid rgb(71, 71, 168);
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
   }
 
   &__list {
@@ -117,6 +119,10 @@
         gap: 16px;
       }
 
+      @media screen and (max-width: 300px) {
+        gap: 5px;
+      }
+
       li {
         display: flex;
         flex-direction: column;
@@ -127,6 +133,7 @@
         span {
           @media screen and (max-width: 600px) {
             font-size: 12px;
+            min-width: max-content;
           }
         }
 
@@ -156,7 +163,9 @@
     width: max-content;
     align-self: center;
     text-align: center;
-    border-bottom: 0.5px solid rgb(71, 71, 168);
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
   }
 
   &__list {
@@ -165,6 +174,7 @@
     gap: 32px;
     padding: 32px;
     border-radius: 16px;
+    //feature
 
     @media screen and (max-width: 1024px) {
       flex-direction: column;

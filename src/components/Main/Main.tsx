@@ -27,6 +27,8 @@ import spotify from "./assets/imgs/spotify.png";
 import paralax from "./assets/imgs/paralax.png";
 import finans from "./assets/imgs/finans.png";
 import calculadora from "./assets/imgs/calculadora.png";
+import luhtarot from "./assets/imgs/luhtarot.png";
+import superfilm from "./assets/imgs/superfilm-store.png";
 import pdf from "./assets/cv.pdf";
 
 const Main = () => {
@@ -179,31 +181,34 @@ const Main = () => {
                 </figure>
                 <h3>Things To Do in Florianopolis</h3>
                 <p>
-                  Back-end: PHP, MySQL, JQuery, Login Social (Google Client).
-                  Front-end: HTML, CSS, Bootstrap, AJAX, Javascript. SEO.
-                  Framework MVC.
+                  Back-end and Front-end with PHP, MySQL, Login Social (Google
+                  Client), JQuery, AJAX, CSS, Bootstrap.
                 </p>
               </article>
             </a>
           </div>
+
           <div className={main["section-projects__list__item"]}>
             <a
-              href="https://youtu.be/yzhuf6k1IFc"
+              href="https://superfilmstore.com.br"
               target="_blank"
               rel="noreferrer"
             >
               <article>
                 <figure>
-                  <img src={reactproject} alt="react project" />
+                  <img src={superfilm} alt="superfilm store" />
                 </figure>
-                <h3>Institutional Website + Forms</h3>
+                <h3>Superfilm Store</h3>
+
                 <p>
-                  ReactJS, Javascript, Router Dom, Formik, Yup, Masks, HTML,
-                  SASS.
+                  E-commerce. Implantação e Manutenção. Customizações CSS, SEO,
+                  Layouts e Gestão do CMS.
                 </p>
+                <small>(em construção)</small>
               </article>
             </a>
           </div>
+
           <div className={main["section-projects__list__item"]}>
             <a
               href="https://youtu.be/fkppkICOs3Q"
@@ -223,6 +228,18 @@ const Main = () => {
 
         <div className={main["section-projects__list"]}>
           <div className={main["section-projects__list__item"]}>
+            <a href="https://luhtarot.com.br" target="_blank" rel="noreferrer">
+              <article>
+                <figure>
+                  <img src={luhtarot} alt="luh tarot" />
+                </figure>
+                <h3>Luh Tarot</h3>
+                <p>ReactJS, Javascript, HTML, SASS.</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
             <a
               href="https://youtu.be/eRm_hPDb7bk"
               target="_blank"
@@ -240,6 +257,27 @@ const Main = () => {
 
           <div className={main["section-projects__list__item"]}>
             <a
+              href="https://youtu.be/yzhuf6k1IFc"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={reactproject} alt="react project" />
+                </figure>
+                <h3>Institutional Website + Forms</h3>
+                <p>
+                  ReactJS, Javascript, Router Dom, Formik, Yup, Masks, HTML,
+                  SASS.
+                </p>
+              </article>
+            </a>
+          </div>
+        </div>
+
+        <div className={main["section-projects__list"]}>
+          <div className={main["section-projects__list__item"]}>
+            <a
               href="https://youtu.be/KWxhh53sOIw"
               target="_blank"
               rel="noreferrer"
@@ -254,24 +292,6 @@ const Main = () => {
             </a>
           </div>
 
-          <div className={main["section-projects__list__item"]}>
-            <a
-              href="https://cainamilech.github.io/game-mata-mosquito/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <article>
-                <figure>
-                  <img src={game} alt="game mata mosquito" />
-                </figure>
-                <h3>Game: Mata Mosquito</h3>
-                <p>Javascript, HTML, CSS, Bootstrap</p>
-              </article>
-            </a>
-          </div>
-        </div>
-
-        <div className={main["section-projects__list"]}>
           <div className={main["section-projects__list__item"]}>
             <a
               href="https://cainamilech.github.io/despesas-pessoais/index.html"
@@ -303,6 +323,40 @@ const Main = () => {
               </article>
             </a>
           </div>
+        </div>
+
+        <div className={main["section-projects__list"]}>
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/game-mata-mosquito/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={game} alt="game mata mosquito" />
+                </figure>
+                <h3>Game: Mata Mosquito</h3>
+                <p>Javascript, HTML, CSS, Bootstrap</p>
+              </article>
+            </a>
+          </div>
+
+          <div className={main["section-projects__list__item"]}>
+            <a
+              href="https://cainamilech.github.io/calculadora/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <article>
+                <figure>
+                  <img src={calculadora} alt="calculator" />
+                </figure>
+                <h3>Calculator</h3>
+                <p>Javascript, HTML and CSS</p>
+              </article>
+            </a>
+          </div>
 
           <div className={main["section-projects__list__item"]}>
             <a
@@ -324,16 +378,16 @@ const Main = () => {
         <div className={main["section-projects__list"]}>
           <div className={main["section-projects__list__item"]}>
             <a
-              href="https://cainamilech.github.io/calculadora/"
+              href="https://cainamilech.github.io/finans-bootstrap/"
               target="_blank"
               rel="noreferrer"
             >
               <article>
                 <figure>
-                  <img src={calculadora} alt="calculator" />
+                  <img src={finans} alt="finans page" />
                 </figure>
-                <h3>Calculator</h3>
-                <p>Javascript, HTML and CSS</p>
+                <h3>Institutional Page</h3>
+                <p>Simple page with HTML, CSS and Bootstrap.</p>
               </article>
             </a>
           </div>
@@ -350,22 +404,6 @@ const Main = () => {
                 </figure>
                 <h3>Paralax</h3>
                 <p>Simple page with paralax effect. HTML and CSS.</p>
-              </article>
-            </a>
-          </div>
-
-          <div className={main["section-projects__list__item"]}>
-            <a
-              href="https://cainamilech.github.io/finans-bootstrap/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <article>
-                <figure>
-                  <img src={finans} alt="finans page" />
-                </figure>
-                <h3>Institutional Page</h3>
-                <p>Simple page with HTML, CSS and Bootstrap.</p>
               </article>
             </a>
           </div>

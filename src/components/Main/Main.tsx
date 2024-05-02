@@ -30,6 +30,7 @@ import calculadora from "./assets/imgs/calculadora.png";
 import luhtarot from "./assets/imgs/luhtarot.png";
 import superfilm from "./assets/imgs/superfilm-store.png";
 import pdf from "./assets/cv.pdf";
+import { Projetos } from "../Projetos/Projetos";
 
 const Main = () => {
   return (
@@ -47,27 +48,30 @@ const Main = () => {
 
         <div className={main["section__about"]}>
           <p>
-            Hello World! I'm <strong>Cainã Milech</strong>, 28 years old,
-            Brazilian, born in Pelotas (RS), living in Florianopolis (SC).
+            Hello World! Sou <strong>Cainã Milech</strong>, tenho 29 anos e moro
+            em Florianopolis, Santa Catarina.
           </p>
           <p>
-            <strong>Web Developer Front-End</strong>, and some knowledge with
-            Back-End and SEO.
+            Sou Freelancer na área de
+            <strong> Desenvolvimento Web </strong>, ofereço soluções para
+            implantações, desenvolvimento ou tarefas específicas em qualquer
+            área de um projeto Web. Abaixo está as tecnologias e ferramentas no
+            qual tenho algum conhecimento ou me sinto confortável para
+            trabalhar.
           </p>
 
           <div>
             <p>
-              English Fluency: C1 Advanced (EF SET Test)
+              Fluência em Ingles: C1 Advanced (EF SET Test)
               <a
                 className={main["section__about__certificate"]}
                 href="https://www.efset.org/cert/bVvi7N"
                 target="_blank"
                 rel="noreferrer"
               >
-                (Certificate link)
+                (Link do Certificado)
               </a>
             </p>
-            <p>Portuguese Fluency: Native</p>
           </div>
 
           <ul>
@@ -101,7 +105,7 @@ const Main = () => {
             </p>
             <p className={main["contact"]}>
               <img src={phone} alt="phone icon" />
-              Phone Number: +55 48 996802068
+              Contato: +55 (48) 996802068
             </p>
           </div>
         </div>
@@ -165,8 +169,10 @@ const Main = () => {
         </div>
       </section>
 
+      <Projetos />
+
       <section className={main["section-projects"]}>
-        <h2>Projects</h2>
+        <h2>PROJETOS DE ESTUDOS</h2>
 
         <div className={main["section-projects__list"]}>
           <div className={main["section-projects__list__item"]}>
@@ -407,24 +413,6 @@ const Main = () => {
               </article>
             </a>
           </div>
-        </div>
-
-        <div className={main["section-projects__list"]}>
-          <p>
-            I have some more projects that I didn't publish because they have
-            data base iteration,
-            <br /> and most of them are PHP, but if you can see, just look on my
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.linkedin.com/in/cainamilech/"
-            >
-              {" "}
-              GitHub
-            </a>
-            !
-          </p>
-          <p></p>
         </div>
       </section>
     </main>

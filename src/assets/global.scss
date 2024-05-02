@@ -13,4 +13,10 @@ a {
   color: gray;
   text-decoration: none;
   cursor: pointer;
+  padding: 3px;
+  &:hover {
+    color: white;
+    background-color: var(--gray-200);
+    border-radius: 5px;
+  }
 }

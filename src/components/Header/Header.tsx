@@ -13,7 +13,9 @@ const Header = () => {
         <div className={header["header__wrapper__name"]}>
           <h1>Cainã Milech</h1>
         </div>
-        <p className={header["header__wrapper__role"]}>WEB DEVELOPER</p>
+        <p className={header["header__wrapper__role"]}>
+          DESENVOLVEDOR WEB - FREELANCER
+        </p>
       </div>
       <div className={header["header__right"]}></div>
     </header>

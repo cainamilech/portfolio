@@ -13,4 +13,9 @@ a {
   color: gray;
   text-decoration: none;
   cursor: pointer;
+  padding: 3px;
+  &:hover {
+    background-color: unset;
+    border-radius: 5px;
+  }
 }

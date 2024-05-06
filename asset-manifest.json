@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.02b3e7ab.css",
-    "main.js": "/portfolio/static/js/main.8440e224.js",
+    "main.css": "/portfolio/static/css/main.755df082.css",
+    "main.js": "/portfolio/static/js/main.277fda1a.js",
+    "static/media/site-superfilm.png": "/portfolio/static/media/site-superfilm.c0008737ddd11cb9dd60.png",
+    "static/media/site-luhtarot.png": "/portfolio/static/media/site-luhtarot.c1d76a99406a05d539ec.png",
+    "static/media/site-florianopolis.png": "/portfolio/static/media/site-florianopolis.ca3954bbaad815854449.png",
     "static/media/cv.pdf": "/portfolio/static/media/cv.873624f4d6fd9dea1a7c.pdf",
+    "static/media/site-superfilmstore.png": "/portfolio/static/media/site-superfilmstore.30695b3300e3db2c387d.png",
     "static/media/paralax.png": "/portfolio/static/media/paralax.71a8382c208a69acd87e.png",
     "static/media/spotify.png": "/portfolio/static/media/spotify.841ff31be0235fbf9daa.png",
     "static/media/game.png": "/portfolio/static/media/game.75569ae1116cce9aea9f.png",
-    "static/media/todo.png": "/portfolio/static/media/todo.55b6f8d04615f565e188.png",
-    "static/media/luhtarot.png": "/portfolio/static/media/luhtarot.0f76286eb44472303be6.png",
     "static/media/landing.png": "/portfolio/static/media/landing.a8efaf60cf2736b1b511.png",
     "static/media/vtexio.png": "/portfolio/static/media/vtexio.0d899185f44c9331b1eb.png",
-    "static/media/superfilm-store.png": "/portfolio/static/media/superfilm-store.88a99c336d43c073b504.png",
     "static/media/attractions.png": "/portfolio/static/media/attractions.44049acdb61a87ad34ac.png",
     "static/media/vtexcheckout.png": "/portfolio/static/media/vtexcheckout.9dfa6a0a924449b3c6a3.png",
     "static/media/finans.png": "/portfolio/static/media/finans.e2e412b4010040b0e045.png",
@@ -21,11 +22,11 @@
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.b38ab38d5d2c2e18fbc527a3e470702c.svg",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.86e8426f86376423a1a55bed6eb038be.svg",
     "index.html": "/portfolio/index.html",
-    "main.02b3e7ab.css.map": "/portfolio/static/css/main.02b3e7ab.css.map",
-    "main.8440e224.js.map": "/portfolio/static/js/main.8440e224.js.map"
+    "main.755df082.css.map": "/portfolio/static/css/main.755df082.css.map",
+    "main.277fda1a.js.map": "/portfolio/static/js/main.277fda1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.02b3e7ab.css",
-    "static/js/main.8440e224.js"
+    "static/css/main.755df082.css",
+    "static/js/main.277fda1a.js"
   ]
 }

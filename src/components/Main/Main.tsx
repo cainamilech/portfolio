@@ -177,46 +177,6 @@ const Main = () => {
         <div className={main["section-projects__list"]}>
           <div className={main["section-projects__list__item"]}>
             <a
-              href="https://todoinflorianopolis.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <article>
-                <figure>
-                  <img src={todo} alt="to do in florianopolis" />
-                </figure>
-                <h3>Things To Do in Florianopolis</h3>
-                <p>
-                  Back-end and Front-end with PHP, MySQL, Login Social (Google
-                  Client), JQuery, AJAX, CSS, Bootstrap.
-                </p>
-              </article>
-            </a>
-          </div>
-
-          <div className={main["section-projects__list__item"]}>
-            <a
-              href="https://superfilmstore.com.br"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <article>
-                <figure>
-                  <img src={superfilm} alt="superfilm store" />
-                </figure>
-                <h3>Superfilm Store</h3>
-
-                <p>
-                  E-commerce. Implantação e Manutenção. Customizações CSS, SEO,
-                  Layouts e Gestão do CMS.
-                </p>
-                <small>(em construção)</small>
-              </article>
-            </a>
-          </div>
-
-          <div className={main["section-projects__list__item"]}>
-            <a
               href="https://youtu.be/fkppkICOs3Q"
               target="_blank"
               rel="noreferrer"
@@ -227,20 +187,6 @@ const Main = () => {
                 </figure>
                 <h3>Product Page - E-commerce</h3>
                 <p>VTEX IO, ReactJS, Javascript, SASS.</p>
-              </article>
-            </a>
-          </div>
-        </div>
-
-        <div className={main["section-projects__list"]}>
-          <div className={main["section-projects__list__item"]}>
-            <a href="https://luhtarot.com.br" target="_blank" rel="noreferrer">
-              <article>
-                <figure>
-                  <img src={luhtarot} alt="luh tarot" />
-                </figure>
-                <h3>Luh Tarot</h3>
-                <p>ReactJS, Javascript, HTML, SASS.</p>
               </article>
             </a>
           </div>

@@ -15,8 +15,7 @@ a {
   cursor: pointer;
   padding: 3px;
   &:hover {
-    color: white;
-    background-color: var(--gray-200);
+    background-color: unset;
     border-radius: 5px;
   }
 }
